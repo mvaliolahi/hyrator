@@ -1,0 +1,23 @@
+{
+    "name": "mvaliolahi/hydrate",
+    "description": "PHP Hydrator Package.",
+    "authors": [
+        {
+            "name": "Meysam Valiolahi",
+            "email": "mvaliolahi@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mvaliolahi\\Hydrate\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^8.5"
+    }
+}
