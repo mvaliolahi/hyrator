@@ -11,14 +11,14 @@ class Hydrate
 
     /**
      * @param $object
-     * @param array $override
+     * @param array $overwrite
      * @return mixed
      */
-    public function to($object, $data, $override = [])
+    public function to($object, $data, $overwrite = [])
     {
         $object = new $object;
 
-        foreach (array_replace($data, $override) as $property => $value) {
+        foreach (array_replace($data, $overwrite) as $property => $value) {
 
             // exact version.
             if ($this->propertyExists($object, $property)) {

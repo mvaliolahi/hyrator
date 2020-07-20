@@ -1,5 +1,13 @@
 ## PHP Hydrator
 
+#### Install
+
+```bash
+composer require mvaliolahi/hydrate
+```
+
+#### Example
+
 ```php
 $hydrate = new Hydrate();
 
@@ -12,6 +20,8 @@ $post = $hydrate->to(PostDTO::class, [
 ]);
 
 ```
+
+* Tip: third argument of to() method can be use to overwrite data.
 
 #### todo
 
