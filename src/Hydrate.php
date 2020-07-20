@@ -38,12 +38,6 @@ class Hydrate
                 $object->$methodName($value);
                 continue;
             }
-
-            // private version
-            try {
-                $object->$property = $value;
-            } catch (\Exception $e) {
-            }
         }
 
         return $object;
