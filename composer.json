@@ -20,6 +20,6 @@
     "require": {
         "phpunit/phpunit": "^10.0"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
